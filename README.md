@@ -1,6 +1,8 @@
 # Introduction to Parallel Computing
 Notes from the Introduction to Parallel Computing Lecture series at the University of Iowa
 
+Survey: https://forms.gle/pEibvs3WWohsMQ718
+
 ## Resources
 
 **Argon Cluster Resources**
