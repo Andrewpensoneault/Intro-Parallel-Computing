@@ -16,6 +16,7 @@ This series of lectures is aimed at Graduate AMCS / Math students with limited e
 ## Resources
 
 **Argon Cluster Resources**
+- Linux Intro: https://portal.tacc.utexas.edu/c/document_library/get_file?uuid=a0c33bf1-b2a4-48b4-a23d-fc8a79c887ec&groupId=13601
 - Argon Cluster Account Application: https://hpc.uiowa.edu/user-services/apply-account
 - Argon Cluster Intro: https://wiki.uiowa.edu/display/hpcdocs/Introduction+To+HPC+For+New+Users
 - Argon Cluster Access: https://wiki.uiowa.edu/display/hpcdocs/Accessing+HPC+resources
