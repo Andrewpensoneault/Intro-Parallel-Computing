@@ -78,21 +78,21 @@ numworkers = numtasks-1;
          for (j=0; j<RC; j++){
             printf("%1.3f ", a[i][j]);
          }
-         printf("\n")
+         printf("\n");
       }
       printf('b = \n');
       for (i=0; i<RC; i++){
          for (j=0; j<RC; j++){
             printf("%1.3f ", b[i][j]);
          }
-         printf("\n")
+         printf("\n");
       }
       printf('c = \n');
       for (i=0; i<RC; i++){
          for (j=0; j<RC; j++){
-            printf("%1.3f ", b[i][j]);
+            printf("%1.3f ", c[i][j]);
          }
-         printf("\n")
+         printf("\n");
       }
 
 
