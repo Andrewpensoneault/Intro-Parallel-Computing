@@ -1,0 +1,42 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021a (9.10.0.1602886) 64-bit (glnxa64)
+                             February 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Hello, World!
+Starting parallel pool (parpool) using the 'local' profile ...
+
+    14
+
+    13
+
+    12
+
+    11
+
+    10
+
+     9
+
+     8
+
+     7
+
+     6
+
+     5
+
+     4
+
+     3
+
+     2
+
+     1
+
