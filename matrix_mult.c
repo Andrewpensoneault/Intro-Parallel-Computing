@@ -21,7 +21,7 @@ int	numtasks,              /* number of tasks in partition */
 double	a[RC][RC],           /* matrix A */
 	    b[RC][RC],           /* matrix B */
 	    c[RC][RC];           /* result matrix C */
-        
+
 MPI_Status status;
 
 
@@ -72,7 +72,28 @@ numworkers = numtasks-1;
 
       double finish = MPI_Wtime();
       printf("Done in %f seconds.\n", finish - start);
-   }
+      printf("mpi_mm has started with %d tasks.\n",numtasks);
+      printf('a = \n');
+      for (i=0; i<RC; i++){
+         for (j=0; j<RC; j++){
+            printf("%1.3f ", a[i][j]);
+         }
+         printf("\n")
+      }
+      printf('b = \n');
+      for (i=0; i<RC; i++){
+         for (j=0; j<RC; j++){
+            printf("%1.3f ", b[i][j]);
+         }
+         printf("\n")
+      }
+      printf('c = \n');
+      for (i=0; i<RC; i++){
+         for (j=0; j<RC; j++){
+            printf("%1.3f ", b[i][j]);
+         }
+         printf("\n")
+      }
 
 
 /**************************** worker task ************************************/
