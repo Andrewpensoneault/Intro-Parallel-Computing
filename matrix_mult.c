@@ -1,7 +1,6 @@
 #include <mpi.h>
 #include <stdio.h>
 #include <stdlib.h>
-
 #define RC 3                   /* row and col size */
 #define MAIN 0                 /* taskid of first task */
 #define FROM_MAIN 1            /* setting a message type */
@@ -21,16 +20,11 @@ int	numtasks,              /* number of tasks in partition */
 double	a[RC][RC],           /* matrix A */
 	    b[RC][RC],           /* matrix B */
 	    c[RC][RC];           /* result matrix C */
-
 MPI_Status status;
-
-
 MPI_Init(&argc,&argv);
 MPI_Comm_rank(MPI_COMM_WORLD,&taskid);
 MPI_Comm_size(MPI_COMM_WORLD,&numtasks);
 numworkers = numtasks-1;
-
-
 /**************************** main task ************************************/
    if (taskid == MAIN)
    {
