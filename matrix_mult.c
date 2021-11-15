@@ -21,6 +21,9 @@ int	numtasks,              /* number of tasks in partition */
 double	a[RC][RC],           /* matrix A */
 	    b[RC][RC],           /* matrix B */
 	    c[RC][RC];           /* result matrix C */
+        
+MPI_Status status;
+
 
 MPI_Init(&argc,&argv);
 MPI_Comm_rank(MPI_COMM_WORLD,&taskid);
