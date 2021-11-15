@@ -63,7 +63,7 @@ numworkers = numtasks-1;
          MPI_Recv(&c[offset][0], rows*RC, MPI_DOUBLE, source, mtype, 
                   MPI_COMM_WORLD, &status);
       }
-
+      
       double finish = MPI_Wtime();
       printf("Done in %f seconds.\n", finish - start);
       printf("mpi_mm has started with %d tasks.\n",numtasks);
