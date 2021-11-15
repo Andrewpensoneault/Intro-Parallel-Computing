@@ -94,7 +94,7 @@ numworkers = numtasks-1;
          }
          printf("\n");
       }
-
+   }
 
 /**************************** worker task ************************************/
    if (taskid > MAIN)
