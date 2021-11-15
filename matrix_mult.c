@@ -91,7 +91,7 @@ numworkers = numtasks-1;
       mtype = FROM_WORKER;
       MPI_Send(&offset, 1, MPI_INT, MAIN, mtype, MPI_COMM_WORLD);
       MPI_Send(&rows, 1, MPI_INT, MAIN, mtype, MPI_COMM_WORLD);
-      MPI_Send(&c, rows*NCB, MPI_DOUBLE, MAIN, mtype, MPI_COMM_WORLD);
+      MPI_Send(&c, rows*RC, MPI_DOUBLE, MAIN, mtype, MPI_COMM_WORLD);
    }
    MPI_Finalize();
 }
