@@ -28,3 +28,5 @@ This series of lectures is aimed at Graduate AMCS / Math students with limited e
 - Argon Array Jobs: https://wiki.uiowa.edu/display/hpcdocs/Array+Jobs
 
 **C Programming Resources**
+- Simple Intro to C with MPI (using slurm, not SGE): https://curc.readthedocs.io/en/latest/programming/MPI-C.html
+- Simple Intro to C with OpenMP (using slurm, not SGE): https://curc.readthedocs.io/en/latest/programming/OpenMP-C.html
