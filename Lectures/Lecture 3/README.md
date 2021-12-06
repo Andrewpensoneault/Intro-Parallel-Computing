@@ -31,3 +31,4 @@ This series of lectures is aimed at Graduate AMCS / Math students with limited e
 - Simple Intro to C with MPI (using slurm, not SGE): https://curc.readthedocs.io/en/latest/programming/MPI-C.html
 - Simple Intro to C with OpenMP (using slurm, not SGE): https://curc.readthedocs.io/en/latest/programming/OpenMP-C.html
 - Basic examples of OpenMPI functions: https://www.rookiehpc.com/mpi/docs/mpi_gather.php
+- Simple CUDA tutorial https://www.nvidia.com/docs/IO/116711/sc11-cuda-c-basics.pdf
